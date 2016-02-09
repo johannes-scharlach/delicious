@@ -1,0 +1,22 @@
+header {
+  .BoxShadow(1);
+  .make-row();
+
+  position: relative;
+
+  .header-container {
+    display: flex;
+    position: relative;
+    background-color: @gray-lighter;
+  }
+
+  .logo, .menu {
+    .make-xs-column(2);
+    .make-sm-column(1);
+  }
+
+  .search-bar {
+    .make-xs-column(8);
+    .make-sm-column(10);
+  }
+}

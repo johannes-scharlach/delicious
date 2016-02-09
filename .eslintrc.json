@@ -1,0 +1,18 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "jsx-quotes": [2, "prefer-single"],
+        "no-undef": 0,
+        "react/jsx-closing-bracket-location": [
+          1,
+          {"selfClosing": "after-props", "nonEmpty": "after-props"}
+        ],
+        "react/jsx-no-bind": 0,
+        "react/jsx-no-undef": 0,
+        "react/prefer-es6-class": [1, "never"],
+        "react/react-in-jsx-scope": 0
+    }
+}

@@ -1,0 +1,35 @@
+.recipe-list {
+  .make-xs-column(12);
+  .make-md-column(10);
+  .make-md-column-offset(1);
+
+  margin-bottom: 2em;
+  margin-top: 2em;
+
+  &-item {
+    .BoxShadow(1);
+    .make-row();
+
+    cursor: pointer;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    position: relative;
+
+    &-container {
+      display: flex;
+      position: relative;
+    }
+
+    & img, .img-placeholder {
+      .make-xs-column(3);
+      .make-md-column(2);
+    }
+
+    .description {
+      .make-xs-column(9);
+      .make-md-column(10);
+
+      background-color: #fff;
+    }
+  }
+}

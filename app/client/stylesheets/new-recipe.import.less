@@ -1,0 +1,20 @@
+.new-recipe {
+  & > * {
+    .make-row();
+  }
+
+  .ingredient-row {
+    .make-row();
+    margin: 1em;
+
+    input[type='number'], select {
+      .make-xs-column(6);
+      .make-md-column(2);
+    }
+
+    input {
+      .make-xs-column(12);
+      .make-md-column(8);
+    }
+  }
+}

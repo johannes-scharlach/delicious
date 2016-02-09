@@ -1,0 +1,17 @@
+{
+  "name": "delicious",
+  "version": "0.1.0",
+  "description": "A recipe app",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^5.0.0",
+    "eslint-plugin-react": "^3.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johannes Scharlach",
+  "license": "MIT"
+}
